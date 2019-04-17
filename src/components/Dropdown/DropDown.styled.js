@@ -13,6 +13,9 @@ export const Paragraph = styled.p`
   margin-bottom: 20px;
 `;
 
+export const CoolParagraph = styled(Paragraph)`
+  color: blue;
+`;
 
 export const ButtonStyles = css`
   display: inline-block;
@@ -22,7 +25,7 @@ export const ButtonStyles = css`
   width: 11rem;
   background: transparent;
   color: white;
-  border: 2px solid white;
+  border: ${p => p.theme.color};
   ${p => p && p.secondary`
     background: white;
     color: palevioletred;

@@ -1,3 +1,19 @@
+components depend on the shared?
+services utils?
+
+assets
+components
+pages
+utils
+services
+translation.json
+test.js
+component.tsx
+styled.js
+context.js
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
